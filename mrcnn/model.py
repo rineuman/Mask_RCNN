@@ -23,9 +23,10 @@ import keras.layers as KL
 import keras.engine as KE
 import keras.models as KM
 
+from tensorflow.python.keras.saving import hdf5_format
+
 from mrcnn import utils
 
-from tensorflow.python.keras.saving import hdf5_format
 
 # Requires TensorFlow 1.3+ and Keras 2.0.8+.
 from distutils.version import LooseVersion
